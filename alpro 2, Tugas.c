@@ -36,7 +36,7 @@ int main () {
 			printf("Tidak Ditemukan\n");
 		}
 		p++;
-	} while (p <= sea);
+	} while (p < sea);
 
 	return 0;
 }
